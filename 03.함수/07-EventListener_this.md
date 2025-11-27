@@ -62,7 +62,7 @@ btn.addEventListener('click', () => {
 
 # delegate / removeEventListener
 
-이번엔 자바스크립트에서의 **이벤트 위임(delegate)**과 removeEventListener()에서의 this 처리 방식까지 확장해서 설명.  
+이번엔 자바스크립트에서의 **이벤트 위임(delegate)** 과 removeEventListener()에서의 this 처리 방식까지 확장해서 설명.  
 이 두 개념은 이벤트 시스템을 효율적으로 다루는 데 핵심적인 역할을 합니다.
 
 ## ✅ 이벤트 위임(delegate)에서의 this
