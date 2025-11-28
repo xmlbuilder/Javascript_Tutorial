@@ -290,8 +290,8 @@ const p = new Person("JungHwan");
 - 빈 객체 생성
   - new Person()을 호출하면 JavaScript는 먼저 **빈 객체 {}** 를 생성합니다.
 - 프로토타입 연결
-  - 생성된 객체는 Person.prototype을 자신의 [[Prototype]] (또는 __proto__)에 자동으로 연결합니다.
-  - 즉, p.__proto__ === Person.prototype이 됩니다.
+  - 생성된 객체는 `Person.prototype` 을 자신의 `[[Prototype]]` (또는 `__proto__` )에 자동으로 연결합니다.
+  - 즉, `p.__proto__ === Person.prototype` 이 됩니다.
 - 생성자 함수 실행
   - Person 함수가 호출되며, this는 새로 생성된 객체를 가리킵니다.
   - this.name = name이 실행되어 p.name = "JungHwan"이 됩니다.
